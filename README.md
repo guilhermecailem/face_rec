@@ -11,7 +11,9 @@ No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
 search_bing_api.py: 
         
-     Fazendo uso do bing como método de pesquisa, este arquivo ".py" recebe duas entradas ao ser executado, sendo a primeira o que se deseja 	pesquisar (imagens) e o segundo o diretório onde serão inseridas as imagens pesquisadas. OBS: Necessário uma API da microsoft, sendo possível requisitar 7 dias grátis (trial).
+     Fazendo uso do bing como método de pesquisa, este arquivo ".py" recebe duas entradas ao ser executado, sendo a primeira o que se deseja 	pesquisar
+     (imagens) e o segundo o diretório onde serão inseridas as imagens pesquisadas. OBS: Necessário uma API da microsoft, sendo possível requisitar 7 dias grátis
+     (trial).
     
 encode_faces.py: 	
     
@@ -27,12 +29,11 @@ recognize_faces_video.py:
 
 recognize_faces_video_file.py: 
 
-    Reconhecimento de faces em um video em disco, com saída processada do video também em disco. O funcionamento deste arquivo ".py" se assemelha com o arquivo "recognize_faces_video.py".
+    Reconhecimento de faces em um video em disco, com saída processada do video também em disco. O funcionamento deste arquivo ".py" se assemelha com o arquivo
+    "recognize_faces_video.py".
 
 encodings.pickle: 
 
     Códificação das faces são geradas, tendo como insumo os arquivos (imagens) presentes na pasta "dataset", através do "encode_faces.py", sendo então serializados em disco.
 		
 
-
-OBS: Esta aplicação está apta a treinar uma rede a partir de diversas imagens que ela mesmo pode pesquisar e baixar (também sendo possível manualmente buscar por imagens e inserir na pasta "dataset"). Contudo, a rede já está treinada para criar vetores de 128-d em aproximadamente 3 milhões de imagens.
