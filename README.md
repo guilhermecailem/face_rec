@@ -11,13 +11,14 @@ No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
 search_bing_api.py: 
         
-     Fazendo uso do bing como método de pesquisa, este arquivo ".py" recebe duas entradas ao ser executado, sendo a primeira o que se deseja 	pesquisar
-     (imagens) e o segundo o diretório onde serão inseridas as imagens pesquisadas. OBS: Necessário uma API da microsoft, sendo possível requisitar 7 dias grátis
-     (trial).
+     Fazendo uso do bing como método de pesquisa, este arquivo ".py" recebe duas entradas ao ser executado, 
+     sendo a primeira o que se deseja pesquisar (imagens) e o segundo o diretório onde serão inseridas as 
+     imagens pesquisadas. OBS: Necessário uma API da microsoft, sendo possível requisitar 7 dias grátis.
     
 encode_faces.py: 	
     
-    Codificação de imagens em 128-d vetores são construídas com este script. Propósito: preparar as imagens para o treinamento do software.
+    Codificação de imagens em 128-d vetores são construídas com este script. Propósito: preparar as 
+    imagens para o treinamento do software.
 
 recognize_faces_image.py:
         
@@ -29,11 +30,12 @@ recognize_faces_video.py:
 
 recognize_faces_video_file.py: 
 
-    Reconhecimento de faces em um video em disco, com saída processada do video também em disco. O funcionamento deste arquivo ".py" se assemelha com o arquivo
-    "recognize_faces_video.py".
+    Reconhecimento de faces em um video em disco, com saída processada do video também em disco. 
+    O funcionamento deste arquivo ".py" se assemelha com o arquivo "recognize_faces_video.py".
 
 encodings.pickle: 
 
-    Códificação das faces são geradas, tendo como insumo os arquivos (imagens) presentes na pasta "dataset", através do "encode_faces.py", sendo então serializados em disco.
+    Códificação das faces são geradas, tendo como insumo os arquivos (imagens) presentes
+    na pasta "dataset", através do "encode_faces.py", sendo então serializados em disco.
 		
 
