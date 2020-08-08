@@ -1,10 +1,5 @@
 # USAGE
-# python search_bing_api.py --query "alan grant" --output dataset/alan_grant
-# python search_bing_api.py --query "ian malcolm" --output dataset/ian_malcolm
-# python search_bing_api.py --query "ellie sattler" --output dataset/ellie_sattler
-# python search_bing_api.py --query "john hammond jurassic park" --output dataset/john_hammond
-# python search_bing_api.py --query "owen grady jurassic world" --output dataset/owen_grady
-# python search_bing_api.py --query "claire dearing jurassic world" --output dataset/claire_dearing
+# python search_bing_api.py --query "jimmy page" --output dataset/jimmy_page
 
 # import the necessary packages
 from requests import exceptions
@@ -62,6 +57,7 @@ total = 0
 
 # loop over the estimated number of results in `GROUP_SIZE` groups
 for offset in range(0, estNumResults, GROUP_SIZE):
+	
 	# update the search parameters using the current offset, then
 	# make the request to fetch the results
 	print("[INFO] making request for group {}-{} of {}...".format(
