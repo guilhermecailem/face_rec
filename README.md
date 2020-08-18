@@ -45,4 +45,8 @@ encodings.pickle:
     Códificação das faces são geradas, tendo como insumo os arquivos (imagens) presentes
     na pasta "dataset", através do "encode_faces.py", sendo então serializados em disco.
 		
+---------------------------------------------------------------------------------------------------------------------
 
+The dlib library, maintained by Davis King, contains our implementation of “deep metric learning” which is used to construct our face embeddings used for the actual recognition process.
+
+The face_recognition  library, created by Adam Geitgey, wraps around dlib’s facial recognition functionality, making it easier to work with.
