@@ -53,3 +53,9 @@ encodings.pickle:
 The dlib library, maintained by Davis King, contains our implementation of “deep metric learning” which is used to construct our face embeddings used for the actual recognition process.
 
 The face_recognition  library, created by Adam Geitgey, wraps around dlib’s facial recognition functionality, making it easier to work with.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Ordem de execução:
+python encode_faces.py --dataset dataset --encodings encodings.pickle         -> Script para realizar a codificação dos rostos presentes nas imagens em vetores.
+
