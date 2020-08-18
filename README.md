@@ -14,6 +14,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	pip install dlib
 	pip install face_recognition
 	pip install opencv-contrib-python
+	pip install imutils
 	
 No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
