@@ -2,17 +2,18 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 
 (OS Linux)
 	
-	-sudo apt-get install buil-essential cmake pkg-confi
-	-sudo apt install python-pip
-	-pip3 install dlib --verbose
-	-pip3 install scikit-learn
-	-pip3 install --upgrade imutils
-	-pip3 install opencv-contrib-python
+	sudo apt-get install buil-essential cmake pkg-confi
+	sudo apt install python-pip
+	pip3 install dlib --verbose
+	pip3 install scikit-learn
+	pip3 install --upgrade imutils
+	pip3 install opencv-contrib-python
 	
 (OS Windows)
 	
-	-pip install dlib
-	-pip install face_recognition
+	pip install dlib
+	pip install face_recognition
+	pip install opencv-contrib-python
 	
 No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
