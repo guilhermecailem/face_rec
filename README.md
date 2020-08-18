@@ -58,5 +58,8 @@ The face_recognition  library, created by Adam Geitgey, wraps around dlib’s fa
 
 Ordem de execução:
 
-python encode_faces.py --dataset dataset --encodings encodings.pickle         -> Script para realizar a codificação dos rostos presentes nas imagens em vetores.
+0 - search_bing_api.py (Opcional) -> Busca automatica das imagens 
 
+1 - python encode_faces.py  -> Script para realizar a codificação dos rostos presentes nas imagens em vetores (128-d face embeddings).
+
+2 - recognize_faces_image.py 
