@@ -1,6 +1,7 @@
 Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser executados: 
 
 (OS Linux)
+	
 	-sudo apt-get install buil-essential cmake pkg-confi
 	-sudo apt install python-pip
 	-pip3 install dlib --verbose
@@ -9,6 +10,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	-pip3 install opencv-contrib-python
 	
 (OS Winwdows)
+	
 	-pip install dlib
 	-pip install face_recognition
 	
