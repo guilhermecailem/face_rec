@@ -9,7 +9,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	-pip3 install --upgrade imutils
 	-pip3 install opencv-contrib-python
 	
-(OS Winwdows)
+(OS Windows)
 	
 	-pip install dlib
 	-pip install face_recognition
