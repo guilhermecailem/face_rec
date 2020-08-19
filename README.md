@@ -8,6 +8,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	pip3 install scikit-learn
 	pip3 install --upgrade imutils
 	pip3 install opencv-contrib-python
+	pip3 install tensorflow
 	
 (OS Windows)
 	
@@ -16,6 +17,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	pip install opencv-contrib-python
 	pip install imutils
 	pip install requests
+	pip install tensorflow
 	
 No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
