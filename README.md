@@ -18,6 +18,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	pip install imutils
 	pip install requests
 	pip install tensorflow
+	pip install keras
 	
 No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
