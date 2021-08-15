@@ -12,6 +12,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	
 (OS Windows)
 	
+	pip install cmake
 	pip install dlib
 	pip install face_recognition
 	pip install opencv-contrib-python
@@ -20,7 +21,7 @@ Com o intuito de fazer a aplicação funcionar, os seguintes comandos devem ser 
 	pip install tensorflow
 	pip install keras
 	pip install SKLearn 
-	pip install cmake
+	
 	
 No diretório "root" da aplicação, temos 6 arquivos. Sendo eles:
 
