@@ -80,7 +80,7 @@ Ordem de execução:
 1 - python encode_faces.py  -> Script para realizar a codificação dos rostos presentes nas imagens em vetores (128-d face embeddings).
 	
 	1.1 usage: encode_faces.py -i --dataset -e --encodings (-d opcional)
-	    exemplo: encode_faces.py -i /dataset/harry_potter/ -e encodings.pickle
+	    exemplo: encode_faces.py -i dataset/harry_potter -e encodings.pickle
 	
 	1.2 ap.add_argument("-i", "--dataset", required=True,
 		help="path to input directory of faces + images")
