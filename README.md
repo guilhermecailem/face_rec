@@ -65,6 +65,13 @@ The face_recognition  library, created by Adam Geitgey, wraps around dlib’s fa
 Ordem de execução:
 
 0 - search_bing_api.py (Opcional) -> Busca automatica das imagens 
+	
+	0.1 usage: search_bing_api.py [-h] -q QUERY -o OUTPUT
+	
+	0.2 	--query ="search query to search Bing Image API for")
+		--output ="path to output directory of images")
+		
+	obs.: é preciso ter uma conta paga no Azure, e inserir no código a sua chave.
 
 1 - python encode_faces.py  -> Script para realizar a codificação dos rostos presentes nas imagens em vetores (128-d face embeddings).
 
