@@ -72,7 +72,9 @@ Ordem de execução:
 		--output ="path to output directory of images")
 		
 	obs.: é preciso ter uma conta paga no Azure, e inserir no código a sua chave.
-	![image](https://user-images.githubusercontent.com/52551449/129500065-b8d4e27c-99f6-4104-b40b-63e3de15aca6.png)
+	
+	![image](https://user-images.githubusercontent.com/52551449/129500111-8a018085-7e5e-4054-8b2c-c55afd2d1162.png)
+
 
 
 1 - python encode_faces.py  -> Script para realizar a codificação dos rostos presentes nas imagens em vetores (128-d face embeddings).
