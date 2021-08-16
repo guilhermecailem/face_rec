@@ -79,8 +79,8 @@ Ordem de execução:
 
 1 - python encode_faces.py  -> Script para realizar a codificação dos rostos presentes nas imagens em vetores (128-d face embeddings).
 	
-	1.1 usage: encode_faces.py -i "path" -e "enconding file" (-d opcional)
-	exemplo: encode_faces.py -i /dataset/harry_potter/ -e encodings.pickle
+	1.1 usage: encode_faces.py -i --dataset -e --encodings (-d opcional)
+	    exemplo: encode_faces.py -i /dataset/harry_potter/ -e encodings.pickle
 	
 	1.2 ap.add_argument("-i", "--dataset", required=True,
 		help="path to input directory of faces + images")
@@ -90,3 +90,13 @@ Ordem de execução:
 		help="face detection model to use: either `hog` or `cnn`")
 		
 2 - recognize_faces_image.py 
+	
+	2.1 usage: recognize_faces_image.py -e ENCODINGS -i IMAGE [-d DETECTION_METHOD]
+	    exemplo: recognize_faces_image.py -e encodings.pickle -i /input/example_04.jpg 
+	    
+	2.2 ap.add_argument("-e", "--encodings", required=True,
+		help="path to serialized db of facial encodings")
+	    ap.add_argument("-i", "--image", required=True,
+		help="path to input image")
+	    ap.add_argument("-d", "--detection-method", type=str, default="cnn",
+		help="face detection model to use: either `hog` or `cnn`")
