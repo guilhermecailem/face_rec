@@ -66,7 +66,7 @@ Ordem de execução:
 
 0 - search_bing_api.py (Opcional) -> Busca automatica das imagens 
 	
-	0.1 usage: search_bing_api.py [-h] -q QUERY -o OUTPUT
+	0.1 usage: search_bing_api.py -q QUERY -o OUTPUT
 	
 	0.2 	--query ="search query to search Bing Image API for")
 		--output ="path to output directory of images")
@@ -78,5 +78,15 @@ Ordem de execução:
 
 
 1 - python encode_faces.py  -> Script para realizar a codificação dos rostos presentes nas imagens em vetores (128-d face embeddings).
-
+	
+	1.1 usage: encode_faces.py -i "path" -e "enconding file" (-d opcional)
+	exemplo: encode_faces.py -i /dataset/harry_potter/ -e encodings.pickle
+	
+	1.2 ap.add_argument("-i", "--dataset", required=True,
+		help="path to input directory of faces + images")
+	    ap.add_argument("-e", "--encodings", required=True,
+		help="path to serialized db of facial encodings")
+	    ap.add_argument("-d", "--detection-method", type=str, default="cnn",
+		help="face detection model to use: either `hog` or `cnn`")
+		
 2 - recognize_faces_image.py 
