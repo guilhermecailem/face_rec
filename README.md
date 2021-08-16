@@ -73,7 +73,7 @@ Ordem de execução:
 		
 	obs.: é preciso ter uma conta paga no Azure, e inserir no código a sua chave.
 	
-	![image](https://user-images.githubusercontent.com/52551449/129500111-8a018085-7e5e-4054-8b2c-c55afd2d1162.png)
+![image](https://user-images.githubusercontent.com/52551449/129500111-8a018085-7e5e-4054-8b2c-c55afd2d1162.png)
 
 
 
