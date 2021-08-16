@@ -92,7 +92,7 @@ Ordem de execução:
 2 - recognize_faces_image.py 
 	
 	2.1 usage: recognize_faces_image.py -e ENCODINGS -i IMAGE [-d DETECTION_METHOD]
-	    exemplo: recognize_faces_image.py -e encodings.pickle -i /input/example_04.jpg 
+	    exemplo: recognize_faces_image.py -e encodings.pickle -i input_01.jpg 
 	    
 	2.2 ap.add_argument("-e", "--encodings", required=True,
 		help="path to serialized db of facial encodings")
